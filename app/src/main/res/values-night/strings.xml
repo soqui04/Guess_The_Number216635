@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="the_eye">The Eye</string>
+    <string name="tap_on_generate">Tap on generate</string>
+    <string name="down">down</string>
+    <string name="up">up</string>
+    <string name="generate">Generate</string>
+    <string name="guessed">Guessed</string>
+</resources>
