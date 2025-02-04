@@ -1,16 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.GuessTheNumber" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+    <style name="Theme.GuessdeNumber" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- PRIMARY BRAND COLOR. -->
         <item name="colorPrimary">@color/navyblue</item>
         <item name="colorPrimaryVariant">@color/darkblue</item>
         <item name="colorOnPrimary">@color/white</item>
-
+        <!-- SECONDARY BRAND COLOR. -->
         <item name="colorSecondary">@color/mustard</item>
         <item name="colorSecondaryVariant">@color/orange</item>
-        <item name="android:statusBarColor">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- STATUS BAR COLOR. -->
+        <item name="android.statusBarColor" tools:targetApi="1">?attr/colorPrimaryVariant</item>
     </style>
-
-    <style name="Theme.GuessTheNumber" parent="Base.Theme.GuessTheNumber" />
 </resources>
